@@ -1,12 +1,10 @@
 import React from 'react'
-import "./styles.js"
 
 
-const PlaceDetails = () => {
+
+const PlaceDetails = ({place}) => {
     return (
-        <div>
-            place details
-        </div>
+      <h1>{place.name}</h1>
     )
 }
 
